@@ -14,6 +14,8 @@ import { cn } from "@/lib/utils";
 import { useToast } from "@/hooks/use-toast";
 import { useState } from "react";
 import axios from "axios";
+import config from "@/config/config";
+
 
 const ContactSection = () => {
   const { toast } = useToast();
@@ -25,7 +27,8 @@ const ContactSection = () => {
 
   setIsSubmitting(true);
 
-  const response = await axios.post("http://localhost:5000/send-email", data);
+  const response = await axios.post(`${config.apiUrl}/send-email`, data);
+  
 
   if (response.status === 200) {
     setTimeout(() => {
