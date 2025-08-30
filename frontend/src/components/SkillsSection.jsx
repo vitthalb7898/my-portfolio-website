@@ -25,7 +25,7 @@ const skills = [
   { name: "VS Code", level: 95, category: "tools" },
 ];
 
-const categories = ["all", "frontend", "backend", "tools", ];
+const categories = ["all", "frontend", "backend", "tools", "Hacking"];
 
  const SkillsSection = () => {
   const [activeCategory, setActiveCategory] = useState("all");
