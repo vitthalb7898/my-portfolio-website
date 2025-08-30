@@ -24,10 +24,10 @@ const skills = [
   { name: "Figma", level: 85, category: "tools" },
   { name: "VS Code", level: 95, category: "tools" },
 
-  { name : "agar password pata ho to khud ka computer hack kr skta ho", level : 100 , category:"Hacking"},
+  
 ];
 
-const categories = ["all", "frontend", "backend", "tools", "Hacking"];
+const categories = ["all", "frontend", "backend", "tools",];
 
  const SkillsSection = () => {
   const [activeCategory, setActiveCategory] = useState("all");
