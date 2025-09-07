@@ -69,7 +69,7 @@ const ContactSection = () => {
                 <div>
                   <h4 className="font-medium"> Email</h4>
                   <a
-                    href="mailto:hello@gmail.com"
+                    href="mailto:codervitthal3112@gmail.com"
                     className="text-muted-foreground hover:text-primary transition-colors"
                   >
                     codervitthal3112@gmail.com
@@ -83,7 +83,7 @@ const ContactSection = () => {
                 <div>
                   <h4 className="font-medium"> Phone</h4>
                   <a
-                    href="tel:+11234567890"
+                    href="tel:+917898693129"
                     className="text-muted-foreground hover:text-primary transition-colors"
                   >
                     +917898693129
@@ -114,9 +114,6 @@ const ContactSection = () => {
                 </a>
                 <a href="#" target="_blank">
                   <Instagram />
-                </a>
-                <a href="#" target="_blank">
-                  <Twitch />
                 </a>
               </div>
             </div>
