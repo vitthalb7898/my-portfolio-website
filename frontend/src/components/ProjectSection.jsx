@@ -3,33 +3,14 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
   {
     id: 1,
-    title: "SaaS Landing Page",
-    description: "A beautiful landing page app using React and Tailwind.",
-    image: "/projects/project1.jpg",
-    tags: ["React", "TailwindCSS", "Supabase"],
-    demoUrl: "#",
-    githubUrl: "#",
+    title: "Real Time Chat App",
+    description: "A real-time chat application built with React, Node.js and Socket.io.",
+    image: "/projects/project1.png",
+    tags: ["React", "TailwindCSS", "Node.js", "Express", "Socket.io"],
+    demoUrl: "https://real-time-chat-app-eight-eosin.vercel.app",
+    githubUrl: "https://github.com/vitthalb7898/real-time-chat-app.git",
   },
-  {
-    id: 2,
-    title: "Orbit Analytics Dashboard",
-    description:
-      "Interactive analytics dashboard with data visualization and filtering capabilities.",
-    image: "/projects/project2.jpg",
-    tags: ["TypeScript", "D3.js", "Next.js"],
-    demoUrl: "#",
-    githubUrl: "#",
-  },
-  {
-    id: 3,
-    title: "E-commerce Platform",
-    description:
-      "Full-featured e-commerce platform with user authentication and payment processing.",
-    image: "/projects/project3.jpg",
-    tags: ["React", "Node.js", "Stripe"],
-    demoUrl: "#",
-    githubUrl: "#",
-  },
+ 
 ];
 
  const ProjectsSection = () => {
