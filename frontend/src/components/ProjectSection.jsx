@@ -5,7 +5,7 @@ const projects = [
     id: 1,
     title: "Real Time Chat App",
     description: "A real-time chat application built with React, Node.js and Socket.io.",
-    image: "/projects/project1.png",
+    image: "frontend/projects/project1.png",
     tags: ["React", "TailwindCSS", "Node.js", "Express", "Socket.io"],
     demoUrl: "https://real-time-chat-app-eight-eosin.vercel.app",
     githubUrl: "https://github.com/vitthalb7898/real-time-chat-app.git",
